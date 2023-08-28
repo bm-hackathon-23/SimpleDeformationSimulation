@@ -1,6 +1,8 @@
 # SimpleDeformationSimulation
 A simple simulation for deformation using pick and drag
 
+To use this code just open the HTML/index.html file in your browser.
+
 This simulation is based on https://andrew.wang-hoyer.com/experiments/cloth/.
 During the hackathon a labeled model named sym_cort_seg_2023.nii was used to generate 3D particles models and 2D slices for simulation.
 Since local image files access is a risky practice to enable, this code only has a hardcoded example from a slice of thaat model.
