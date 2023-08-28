@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="author" content="David"/>
+        <meta name="description" content="2D cloth simulation of a brain structure slice built with the HTML5 canvas"/>
+        <title>David | Brain as Cloth Simulation</title>
+        <script type="text/javascript" charset="utf-8" src="lib/mootools-1.2.4-core-yc.js"></script>
+        <script type="text/javascript" charset="utf-8" src="source/fast_vector.js"></script>
+        <script type="text/javascript" charset="utf-8" src="source/fast_vector.js"></script>
+        <script type="text/javascript" charset="utf-8" src="source/canvas.js"></script>
+        <script type="text/javascript" charset="utf-8" src="source/point.js"></script>
+        <script type="text/javascript" charset="utf-8" src="source/constraint.js"></script>
+        <script type="text/javascript" charset="utf-8" src="source/cloth.js"></script>
+    </head>
+    <body>
+        
+        <div class="experiment">
+            <canvas id="gc" width="850px" height="850px">
+                <strong>This browser does not support canvas </strong>
+    
+            </canvas>
+            <p>Click and drag to move points. Hold down any key to pin them.</p>
+            <p>
+                <input type="checkbox" id="constraints" checked="checked"/>
+                Draw Lines &nbsp;<input type="checkbox" id="points"/>
+                Draw Points<br/>
+            </p>
+        </div>
+        <div class="data">
+            <img id="dataImg" src="./braintest.bmp">
+        </div>
+    </body>
+</html>
