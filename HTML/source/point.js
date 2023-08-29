@@ -7,7 +7,7 @@ var Point = function(canvas, x, y){
 	this.mass = this.inv_mass = 1;
 	
 	this.force = new FastVector(0.0,0.5).multiply(0.05 * 0.05);
-	this.radius = 3;
+	this.radius = 2;
 };
 
 Point.prototype = {
