@@ -9,3 +9,6 @@ Since local image files access is a risky practice to enable for JS code, this e
 You can create your own models, just consider using images of maximun 400x400 8 bit, where the background is 0 and the foreground is not 0.
 
 Replace the variable imgData with your own 2D integer array in the file cloth.js(78).
+
+Work presented by:
+David Arturo Soriano Valdez
