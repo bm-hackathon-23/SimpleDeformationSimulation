@@ -11,4 +11,4 @@ You can create your own models, just consider using images of maximun 400x400 8 
 Replace the variable imgData with your own 2D integer array in the file cloth.js(78).
 
 Work presented by:
-David Arturo Soriano Valdez
+David Arturo Soriano Valdez (BIOCOMLAN - UNAM - ICAT)
